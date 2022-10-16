@@ -85,7 +85,6 @@
         }
     }
 }
-/* @media (max-width: 800px) {} */
 
 .container-footer {
     display: flex;
@@ -119,20 +118,11 @@
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
-        /*border: 6px solid rgba(0,0,0,.125);
-        box-shadow: 0 20px 16px rgba(0 0 0 /25%); */
-        /*strong { 
-            font-weight : 400px;
-            color: yellow;
-        } */
         -o-transition: 1000 ms all linear;
         border : 3px solid  #000069;
         &:hover {
             color: blue;
             background-color: rgb(122, 153, 76);
-          /*  color: black;
-            -o-transition: 700 ms all linear;
-            border : 1px solid blue; */
         }
 
                 @media (max-width: 480px) {
@@ -163,20 +153,11 @@
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
-        /* border: 6px solid rgba(0,0,0,.125);
-        box-shadow: 0 20px 16px rgba(0 0 0 /25%);
-        strong { 
-            font-weight : 400px;
-            color: yellowgreen;
-        }*/
         -o-transition: 1000 ms all linear;
         border : 3px solid  #000069;
         &:hover {
             color: blue;
             background-color: grey;
-           /* color: black;
-           -o-transition: 700 ms all linear;
-            border : 1px solid blue; */
         }
         /* *** TAMAÑO CELULAR *** */
         @media (max-width: 480px) {
@@ -206,20 +187,12 @@
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
-        /* border: 6px solid rgba(0,0,0,.125);
-        box-shadow: 0 20px 16px rgba(0 0 0 /25%); 
-        strong { 
-            font-weight : 400px;
-            color: white;
-        } */
+        
         -o-transition: 1000 ms all linear;
         border : 3px solid  #000069;
         &:hover {
             color: blue;
             background-color: grayscale($color: #101010);
-            /* color: black;
-               -o-transition: 700 ms all linear;
-               border : 1px solid blue; */
         }
         @media (max-width: 480px) {
         /* *** TAMAÑO CELULAR *** */
@@ -252,19 +225,11 @@
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
-       /* box-shadow: 0 20px 16px rgba(0 0 0 /25%);*/
         -o-transition: 1000 ms all linear;
         border : 3px solid  #000069;
-        /* strong { 
-            font-weight : 400px;
-            color: greenyellow;
-        } */
         &:hover {
             color: blue;
             background-color: rgb(44, 6, 44);
-            /* color: black;
-               -o-transition: 700 ms all linear;
-                border : 1px solid blue; */
         }
         /* *** TAMAÑO CELULAR *** */
         @media (max-width: 480px) {
@@ -283,25 +248,3 @@
         }
     }
 }
-
-/* hover ** dentro del bloque para directo 
-&:hover {
- para invertir hover:
- color : blue;
- background-color : white
- dar color del padre poner copiar al padre
- border : 1px solid blue;
-
- transicion: pasar de un valor con propiedades a otra aplicar al papa.
- -o-transition: 700 ms all linear;
-}
-
-GIT 
-git init : habilita el directorio de trabajo
-git status
-git add . : suber toda la carpeta (archivos y dirs) al area de preparacion
-git status: se registra como modificado
-git commit -m "Grid layout"
-git push: liga reposiorio remoto
-
-*/
