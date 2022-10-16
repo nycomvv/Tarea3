@@ -1,0 +1,335 @@
+@charset "UTF-8";
+.container {
+  width: 50%;
+  background-color: #000046;
+}
+
+.container-flex {
+  display: flex;
+  width: 100%;
+}
+.container-flex__der {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 30px;
+  color: #fff;
+}
+.container-flex__der a {
+  color: #fff;
+  text-decoration: none;
+}
+.container-flex__izq {
+  display: flex;
+  justify-content: left;
+}
+
+.container-center {
+  width: 100%;
+  height: 350px;
+  background-color: #404040;
+  background-image: url("../images/notebook.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0px;
+}
+.container-center__planning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  text-align: center;
+  padding-top: 70px;
+}
+.container-center__text {
+  font-size: 16px;
+  color: yellow;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+}
+.container-center__text2 {
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1px;
+}
+.container-center__welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 2px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 480px) {
+  .container-center__welcome {
+    /* *** TAMAÑO CELULAR *** */
+    font-size: 16px;
+    color: red;
+    /* FIN CELULAR */
+  }
+}
+@media (min-width: 481px) and (max-width: 980px) {
+  .container-center__welcome {
+    /* TAMAÑO TABLET */
+    font-size: 14px;
+    color: green;
+    /* FIN TABLET */
+  }
+}
+@media (min-width: 981px) {
+  .container-center__welcome {
+    /* TAMAÑO PC */
+    font-size: 12px;
+    color: blue;
+    /* FIN PC */
+  }
+}
+
+/* @media (max-width: 800px) {} */
+.container-footer {
+  display: flex;
+  gap: 5px;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  -o-transition: 1000 ms all linear;
+}
+.container-footer__title {
+  margin: 3px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400px;
+  color: white;
+}
+.container-footer__text {
+  margin: 3px;
+  font-size: 12px;
+  text-align: center;
+  color: yellowgreen;
+}
+.container-footer__card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  padding: 4px;
+  background: #000069;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  /*border: 6px solid rgba(0,0,0,.125);
+  box-shadow: 0 20px 16px rgba(0 0 0 /25%); */
+  /*strong { 
+      font-weight : 400px;
+      color: yellow;
+  } */
+  -o-transition: 1000 ms all linear;
+  border: 3px solid #000069;
+}
+.container-footer__card1:hover {
+  color: blue;
+  background-color: rgb(122, 153, 76);
+  /*  color: black;
+    -o-transition: 700 ms all linear;
+    border : 1px solid blue; */
+}
+@media (max-width: 480px) {
+  .container-footer__card1 {
+    /* *** TAMAÑO CELULAR *** */
+    background: red;
+    /* FIN CELULAR */
+  }
+}
+@media (min-width: 481px) and (max-width: 980px) {
+  .container-footer__card1 {
+    /* TAMAÑO TABLET */
+    background: green;
+    /* FIN TABLET */
+  }
+}
+@media (min-width: 981px) {
+  .container-footer__card1 {
+    /* TAMAÑO PC */
+    background: #000069;
+    /* FIN PC */
+  }
+}
+.container-footer__card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  padding: 4px;
+  background: #000069;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  /* border: 6px solid rgba(0,0,0,.125);
+  box-shadow: 0 20px 16px rgba(0 0 0 /25%);
+  strong { 
+      font-weight : 400px;
+      color: yellowgreen;
+  }*/
+  -o-transition: 1000 ms all linear;
+  border: 3px solid #000069;
+  /* *** TAMAÑO CELULAR *** */
+  /* TAMAÑO TABLET */
+  /* TAMAÑO PC */
+}
+.container-footer__card2:hover {
+  color: blue;
+  background-color: grey;
+  /* color: black;
+  -o-transition: 700 ms all linear;
+   border : 1px solid blue; */
+}
+@media (max-width: 480px) {
+  .container-footer__card2 {
+    background: red;
+    /* FIN CELULAR */
+  }
+}
+@media (min-width: 481px) and (max-width: 980px) {
+  .container-footer__card2 {
+    background: green;
+    /* FIN TABLET */
+  }
+}
+@media (min-width: 981px) {
+  .container-footer__card2 {
+    background: #000069;
+    /* FIN PC */
+  }
+}
+.container-footer__card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  padding: 4px;
+  background: #000069;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  /* border: 6px solid rgba(0,0,0,.125);
+  box-shadow: 0 20px 16px rgba(0 0 0 /25%); 
+  strong { 
+      font-weight : 400px;
+      color: white;
+  } */
+  -o-transition: 1000 ms all linear;
+  border: 3px solid #000069;
+}
+.container-footer__card3:hover {
+  color: blue;
+  background-color: #101010;
+  /* color: black;
+     -o-transition: 700 ms all linear;
+     border : 1px solid blue; */
+}
+@media (max-width: 480px) {
+  .container-footer__card3 {
+    /* *** TAMAÑO CELULAR *** */
+    background: red;
+    /* FIN CELULAR */
+  }
+}
+@media (min-width: 481px) and (max-width: 980px) {
+  .container-footer__card3 {
+    /* TAMAÑO TABLET */
+    background: green;
+    /* FIN TABLET */
+  }
+}
+@media (min-width: 981px) {
+  .container-footer__card3 {
+    /* TAMAÑO PC */
+    background: #000069;
+    /* FIN PC */
+  }
+}
+.container-footer__card4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  padding: 4px;
+  background: #000069;
+  /* border: 6px solid rgba(0,0,0,.125); */
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  /* box-shadow: 0 20px 16px rgba(0 0 0 /25%);*/
+  -o-transition: 1000 ms all linear;
+  border: 3px solid #000069;
+  /* strong { 
+      font-weight : 400px;
+      color: greenyellow;
+  } */
+  /* *** TAMAÑO CELULAR *** */
+  /* TAMAÑO TABLET */
+  /* TAMAÑO PC */
+}
+.container-footer__card4:hover {
+  color: blue;
+  background-color: rgb(44, 6, 44);
+  /* color: black;
+     -o-transition: 700 ms all linear;
+      border : 1px solid blue; */
+}
+@media (max-width: 480px) {
+  .container-footer__card4 {
+    background: red;
+    /* FIN CELULAR */
+  }
+}
+@media (min-width: 481px) and (max-width: 980px) {
+  .container-footer__card4 {
+    background: green;
+    /* FIN TABLET */
+  }
+}
+@media (min-width: 981px) {
+  .container-footer__card4 {
+    background: #000069;
+    /* FIN PC */
+  }
+}
+
+/* hover ** dentro del bloque para directo 
+&:hover {
+ para invertir hover:
+ color : blue;
+ background-color : white
+ dar color del padre poner copiar al padre
+ border : 1px solid blue;
+
+ transicion: pasar de un valor con propiedades a otra aplicar al papa.
+ -o-transition: 700 ms all linear;
+}
+
+GIT 
+git init : habilita el directorio de trabajo
+git status
+git add . : suber toda la carpeta (archivos y dirs) al area de preparacion
+git status: se registra como modificado
+git commit -m "Grid layout"
+git push: liga reposiorio remoto
+
+*/
+
+/*# sourceMappingURL=style.css.map */
