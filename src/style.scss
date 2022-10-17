@@ -3,24 +3,39 @@
     background-color: #000046;
 }
 .container-flex { 
+    display: flex;
+    width: 100%;
+    &__der {
         display: flex;
-        width: 100%;
-        &__der {
-            display: flex;
-            justify-content: right;
-            align-items: center;
-            padding-right: 30px;
+        justify-content: right;
+        align-items: center;
+        padding-right: 10px;
+        color: #fff;
+        a {
             color: #fff;
-            a {
-               color: #fff;
-                text-decoration: none;
+            text-decoration: none;
+        }
+        @media (max-width: 480px) {
+            /* *** TAMAÑO CELULAR *** */
+                color: red;
+            /* FIN CELULAR */    
             }
-        }
-        &__izq {
-            display: flex;
-            justify-content: left;
-        }
-       
+            @media (min-width: 481px) and (max-width:980px) {
+            /* TAMAÑO TABLET */
+                color: green;
+            /* FIN TABLET */ 
+            }
+            @media (min-width: 981px) {
+            /* TAMAÑO PC */
+                color: blue;
+            /* FIN PC */ 
+            }
+    }
+    &__izq {
+        display: flex;
+        justify-content: left;
+    }    
+     
 }
 
 .container-center {
@@ -50,7 +65,7 @@
         padding: 0px;
     }
     &__text2 {
-        font-size: 16px;
+        font-size: 12px;
         color: black;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
@@ -63,23 +78,19 @@
         width: 100%;
         gap: 2px;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-      
+        font-family: Arial, Helvetica, sans-serif;   
         @media (max-width: 480px) {
         /* *** TAMAÑO CELULAR *** */
-            font-size: 16px;
             color: red;
         /* FIN CELULAR */    
         }
         @media (min-width: 481px) and (max-width:980px) {
         /* TAMAÑO TABLET */
-            font-size: 14px;
             color: green;
         /* FIN TABLET */ 
         }
         @media (min-width: 981px) {
         /* TAMAÑO PC */
-            font-size: 12px;
             color: blue;
         /* FIN PC */ 
         }
@@ -88,32 +99,29 @@
 
 .container-footer {
     display: flex;
-    gap: 5px;
+    gap: 3px;
     padding: 40px;
     font-family: Arial, Helvetica, sans-serif; 
     -o-transition: 1000 ms all linear;
     &__title {
-        margin: 3px;
-        font-size: 14px;
+        margin: 2px;
+        font-size: 10px;
         text-align: center;
-        font-weight : 400px;
-        color: white;
-        
+        color: yellow;
     }
     &__text{
         margin: 3px;
-        font-size: 12px;
+        font-size: 9px;
         text-align: center;
-        color: yellowgreen;
+        color: white;
     }
     &__card1 {  
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 150px;
-        padding: 4px;
+        height: 180px;    
         background: #000069;
-        border-radius: 10px;
+        border-radius: 9px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
@@ -125,9 +133,9 @@
             background-color: rgb(122, 153, 76);
         }
 
-                @media (max-width: 480px) {
+        @media (max-width: 480px) {
         /* *** TAMAÑO CELULAR *** */
-            background: red;         
+            background: red;       
         /* FIN CELULAR */    
         }
         @media (min-width: 481px) and (max-width:980px) {
@@ -145,8 +153,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 150px;
-        padding: 4px;
+        height: 180px;
         background: #000069;
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -179,8 +186,7 @@
         display: flex;
         flex-direction: column;
         align-items: center; 
-        height: 150px;
-        padding: 4px;
+        height: 180px;
         background: #000069;
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -216,10 +222,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 150px;
-        padding: 4px;
+        height: 180px;
         background: #000069;
-        /* border: 6px solid rgba(0,0,0,.125); */
         border-radius: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
@@ -229,7 +233,7 @@
         border : 3px solid  #000069;
         &:hover {
             color: blue;
-            background-color: rgb(44, 6, 44);
+            background-color: green;
         }
         /* *** TAMAÑO CELULAR *** */
         @media (max-width: 480px) {

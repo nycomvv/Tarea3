@@ -12,12 +12,33 @@
   display: flex;
   justify-content: right;
   align-items: center;
-  padding-right: 30px;
+  padding-right: 10px;
   color: #fff;
 }
 .container-flex__der a {
   color: #fff;
   text-decoration: none;
+}
+@media (max-width: 480px) {
+  .container-flex__der {
+    /* *** TAMAÑO CELULAR *** */
+    color: red;
+    /* FIN CELULAR */
+  }
+}
+@media (min-width: 481px) and (max-width: 980px) {
+  .container-flex__der {
+    /* TAMAÑO TABLET */
+    color: green;
+    /* FIN TABLET */
+  }
+}
+@media (min-width: 981px) {
+  .container-flex__der {
+    /* TAMAÑO PC */
+    color: blue;
+    /* FIN PC */
+  }
 }
 .container-flex__izq {
   display: flex;
@@ -52,7 +73,7 @@
   padding: 0px;
 }
 .container-center__text2 {
-  font-size: 16px;
+  font-size: 12px;
   color: black;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -70,7 +91,6 @@
 @media (max-width: 480px) {
   .container-center__welcome {
     /* *** TAMAÑO CELULAR *** */
-    font-size: 16px;
     color: red;
     /* FIN CELULAR */
   }
@@ -78,7 +98,6 @@
 @media (min-width: 481px) and (max-width: 980px) {
   .container-center__welcome {
     /* TAMAÑO TABLET */
-    font-size: 14px;
     color: green;
     /* FIN TABLET */
   }
@@ -86,60 +105,47 @@
 @media (min-width: 981px) {
   .container-center__welcome {
     /* TAMAÑO PC */
-    font-size: 12px;
     color: blue;
     /* FIN PC */
   }
 }
 
-/* @media (max-width: 800px) {} */
 .container-footer {
   display: flex;
-  gap: 5px;
+  gap: 3px;
   padding: 40px;
   font-family: Arial, Helvetica, sans-serif;
   -o-transition: 1000 ms all linear;
 }
 .container-footer__title {
-  margin: 3px;
-  font-size: 14px;
+  margin: 2px;
+  font-size: 10px;
   text-align: center;
-  font-weight: 400px;
-  color: white;
+  color: yellow;
 }
 .container-footer__text {
   margin: 3px;
-  font-size: 12px;
+  font-size: 9px;
   text-align: center;
-  color: yellowgreen;
+  color: white;
 }
 .container-footer__card1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 150px;
-  padding: 4px;
+  height: 180px;
   background: #000069;
-  border-radius: 10px;
+  border-radius: 9px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  /*border: 6px solid rgba(0,0,0,.125);
-  box-shadow: 0 20px 16px rgba(0 0 0 /25%); */
-  /*strong { 
-      font-weight : 400px;
-      color: yellow;
-  } */
   -o-transition: 1000 ms all linear;
   border: 3px solid #000069;
 }
 .container-footer__card1:hover {
   color: blue;
   background-color: rgb(122, 153, 76);
-  /*  color: black;
-    -o-transition: 700 ms all linear;
-    border : 1px solid blue; */
 }
 @media (max-width: 480px) {
   .container-footer__card1 {
@@ -166,20 +172,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 150px;
-  padding: 4px;
+  height: 180px;
   background: #000069;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  /* border: 6px solid rgba(0,0,0,.125);
-  box-shadow: 0 20px 16px rgba(0 0 0 /25%);
-  strong { 
-      font-weight : 400px;
-      color: yellowgreen;
-  }*/
   -o-transition: 1000 ms all linear;
   border: 3px solid #000069;
   /* *** TAMAÑO CELULAR *** */
@@ -189,9 +188,6 @@
 .container-footer__card2:hover {
   color: blue;
   background-color: grey;
-  /* color: black;
-  -o-transition: 700 ms all linear;
-   border : 1px solid blue; */
 }
 @media (max-width: 480px) {
   .container-footer__card2 {
@@ -215,29 +211,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 150px;
-  padding: 4px;
+  height: 180px;
   background: #000069;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  /* border: 6px solid rgba(0,0,0,.125);
-  box-shadow: 0 20px 16px rgba(0 0 0 /25%); 
-  strong { 
-      font-weight : 400px;
-      color: white;
-  } */
   -o-transition: 1000 ms all linear;
   border: 3px solid #000069;
 }
 .container-footer__card3:hover {
   color: blue;
   background-color: #101010;
-  /* color: black;
-     -o-transition: 700 ms all linear;
-     border : 1px solid blue; */
 }
 @media (max-width: 480px) {
   .container-footer__card3 {
@@ -264,32 +250,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 150px;
-  padding: 4px;
+  height: 180px;
   background: #000069;
-  /* border: 6px solid rgba(0,0,0,.125); */
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  /* box-shadow: 0 20px 16px rgba(0 0 0 /25%);*/
   -o-transition: 1000 ms all linear;
   border: 3px solid #000069;
-  /* strong { 
-      font-weight : 400px;
-      color: greenyellow;
-  } */
   /* *** TAMAÑO CELULAR *** */
   /* TAMAÑO TABLET */
   /* TAMAÑO PC */
 }
 .container-footer__card4:hover {
   color: blue;
-  background-color: rgb(44, 6, 44);
-  /* color: black;
-     -o-transition: 700 ms all linear;
-      border : 1px solid blue; */
+  background-color: green;
 }
 @media (max-width: 480px) {
   .container-footer__card4 {
@@ -309,27 +285,5 @@
     /* FIN PC */
   }
 }
-
-/* hover ** dentro del bloque para directo 
-&:hover {
- para invertir hover:
- color : blue;
- background-color : white
- dar color del padre poner copiar al padre
- border : 1px solid blue;
-
- transicion: pasar de un valor con propiedades a otra aplicar al papa.
- -o-transition: 700 ms all linear;
-}
-
-GIT 
-git init : habilita el directorio de trabajo
-git status
-git add . : suber toda la carpeta (archivos y dirs) al area de preparacion
-git status: se registra como modificado
-git commit -m "Grid layout"
-git push: liga reposiorio remoto
-
-*/
 
 /*# sourceMappingURL=style.css.map */
