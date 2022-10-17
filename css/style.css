@@ -7,7 +7,7 @@
   overflow: scroll;
   align-items: center;
   background-color: #000046;
-  -o-transition: 1000 ms all linear;
+  /* -o-transition : 1000 ms all linear; */
 }
 .container-grid__der {
   padding-right: 20px;
