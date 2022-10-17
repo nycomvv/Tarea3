@@ -6,10 +6,6 @@
   overflow: scroll;
   background-color: #000046;
   -o-transition: 10rgb 149, 149, 205 ll linear;
-  /* &__izq {
-       display: flex; 
-       justify-content: left;
-   }*/
 }
 .container-grid__der {
   display: grid;
