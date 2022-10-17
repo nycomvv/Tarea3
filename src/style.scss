@@ -3,13 +3,14 @@
     display: grid;
     grid-template-columns: repeat(7 , 1fr);
     grid-template-rows: repeat(1 , 1fr);
-    justify-content: center;
     overflow: scroll;
-    align-items: center;
     background-color: #000046;
-   /* -o-transition : 1000 ms all linear; */
+    -o-transition : 10rgb(149, 149, 205)ll linear;
     &__der {
-        padding-right: 20px;
+       /* padding-right: 20px;   */   
+        justify-content: center;
+        align-items: center ; 
+        text-align: center;
         a {
             color: #fff;
             text-decoration: none;
@@ -26,22 +27,22 @@
                     color: red;
                 /* FIN CELULAR */    
                 }
-                @media (min-width: 481px) and (max-width:980px) {
+            @media (min-width: 481px) and (max-width:980px) {
                 /* TAMAÑO TABLET */
                     color: yellow;
                 /* FIN TABLET */ 
-                }
-                @media (min-width: 981px) {
+            }
+            @media (min-width: 981px) {
                 /* TAMAÑO PC */
                     color: white;
                 /* FIN PC */ 
-                }
+            }
         }
     }
-    &__izq {
-       display: flex; 
+   /* &__izq {
+        display: flex; 
         justify-content: left;
-    }
+    }*/
 }
 
 .container-center {
