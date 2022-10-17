@@ -1,17 +1,16 @@
 .container {
-    width: 50%;
+   width: 100%;
     background-color: #000046;
-   
 }
 .container-flex { 
     display: flex;
-    width: 100%;
+   /* width: 100%; */
+    -o-transition: 1000 ms all linear;
     &__der {
         display: flex;
-        justify-content: right;
-        text-align: center;
+        justify-content: center;
         align-items: center;
-        padding-right: 10px;
+        padding-right: 20px;
         a {
             color: #fff;
             text-decoration: none;
@@ -108,7 +107,7 @@
 .container-footer {
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: repeat(1 , 1fr);
     gap: 3px;
     padding: 40px;
     font-family: Arial, Helvetica, sans-serif; 
