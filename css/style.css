@@ -11,32 +11,40 @@
 .container-flex__der {
   display: flex;
   justify-content: right;
+  text-align: center;
   align-items: center;
   padding-right: 10px;
-  color: #fff;
 }
 .container-flex__der a {
   color: #fff;
   text-decoration: none;
 }
+.container-flex__der a:hover {
+  background-color: green;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 @media (max-width: 480px) {
-  .container-flex__der {
+  .container-flex__der a {
     /* *** TAMAÑO CELULAR *** */
     color: red;
     /* FIN CELULAR */
   }
 }
 @media (min-width: 481px) and (max-width: 980px) {
-  .container-flex__der {
+  .container-flex__der a {
     /* TAMAÑO TABLET */
-    color: green;
+    color: yellow;
     /* FIN TABLET */
   }
 }
 @media (min-width: 981px) {
-  .container-flex__der {
+  .container-flex__der a {
     /* TAMAÑO PC */
-    color: blue;
+    color: white;
     /* FIN PC */
   }
 }
@@ -111,7 +119,9 @@
 }
 
 .container-footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
   gap: 3px;
   padding: 40px;
   font-family: Arial, Helvetica, sans-serif;
@@ -123,11 +133,53 @@
   text-align: center;
   color: yellow;
 }
+@media (max-width: 480px) {
+  .container-footer__title {
+    /* *** TAMAÑO CELULAR *** */
+    color: blue;
+    /* FIN CELULAR */
+  }
+}
+@media (min-width: 481px) and (max-width: 980px) {
+  .container-footer__title {
+    /* TAMAÑO TABLET */
+    color: yellow;
+    /* FIN TABLET */
+  }
+}
+@media (min-width: 981px) {
+  .container-footer__title {
+    /* TAMAÑO PC */
+    color: white;
+    /* FIN PC */
+  }
+}
 .container-footer__text {
   margin: 3px;
   font-size: 9px;
   text-align: center;
   color: white;
+}
+@media (max-width: 480px) {
+  .container-footer__text {
+    /* *** TAMAÑO CELULAR *** */
+    color: blue;
+    /* FIN CELULAR */
+  }
+}
+@media (min-width: 481px) and (max-width: 980px) {
+  .container-footer__text {
+    /* TAMAÑO TABLET */
+    color: yellow;
+    /* FIN TABLET */
+  }
+}
+@media (min-width: 981px) {
+  .container-footer__text {
+    /* TAMAÑO PC */
+    color: white;
+    /* FIN PC */
+  }
 }
 .container-footer__card1 {
   display: flex;
@@ -135,7 +187,7 @@
   align-items: center;
   height: 180px;
   background: #000069;
-  border-radius: 9px;
+  border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -265,7 +317,7 @@
 }
 .container-footer__card4:hover {
   color: blue;
-  background-color: green;
+  background-color: purple;
 }
 @media (max-width: 480px) {
   .container-footer__card4 {
