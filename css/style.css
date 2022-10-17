@@ -4,7 +4,7 @@
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(1, 1fr);
   justify-content: center;
-  overflow: scroll;
+  /* overflow: scroll; */
   align-items: center;
   background-color: #000046;
   /* -o-transition : 1000 ms all linear; */
@@ -46,7 +46,7 @@
   }
 }
 .container-grid__izq {
-  /*  display: flex; */
+  display: flex;
   justify-content: left;
 }
 
