@@ -19,6 +19,7 @@
 }
 .container-grid__der a {
   color: #fff;
+  font-size: 12px;
   text-decoration: none;
 }
 .container-grid__der a:hover {
