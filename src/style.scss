@@ -56,11 +56,27 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
-        color: yellow;
         text-align: center;
         padding-top: 70px;
+        @media (max-width: 480px) {
+            /* *** TAMAÑO CELULAR *** */
+                color: red;
+                font-size: 25px;
+            /* FIN CELULAR */    
+            }
+            @media (min-width: 481px) and (max-width:980px) {
+            /* TAMAÑO TABLET */
+                color: green;
+                font-size: 35px;
+            /* FIN TABLET */ 
+            }
+            @media (min-width: 981px) {
+            /* TAMAÑO PC */
+                color: blue;
+                font-size: 40px;
+            /* FIN PC */ 
+            }
     }
     &__text {
         font-size: 16px;
@@ -68,6 +84,24 @@
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         padding: 0px;
+        @media (max-width: 480px) {
+            /* *** TAMAÑO CELULAR *** */
+                color: red;
+                font-size: 15px;
+            /* FIN CELULAR */    
+            }
+            @media (min-width: 481px) and (max-width:980px) {
+            /* TAMAÑO TABLET */
+                color: green;
+                font-size: 25px;
+            /* FIN TABLET */ 
+            }
+            @media (min-width: 981px) {
+            /* TAMAÑO PC */
+                color: blue;
+                font-size: 35px;
+            /* FIN PC */ 
+            }
     }
     &__text2 {
         font-size: 12px;
@@ -87,16 +121,19 @@
         @media (max-width: 480px) {
         /* *** TAMAÑO CELULAR *** */
             color: red;
+            font-size: 12px;
         /* FIN CELULAR */    
         }
         @media (min-width: 481px) and (max-width:980px) {
         /* TAMAÑO TABLET */
             color: green;
+            font-size: 14px;
         /* FIN TABLET */ 
         }
         @media (min-width: 981px) {
         /* TAMAÑO PC */
             color: blue;
+            font-size: 16px;
         /* FIN PC */ 
         }
     }
