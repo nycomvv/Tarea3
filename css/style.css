@@ -18,7 +18,7 @@
   text-decoration: none;
 }
 .container-grid__der a:hover {
-  background-color: green;
+  background-color: yellowgreen;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -201,12 +201,11 @@
   margin: 2px;
   font-size: 10px;
   text-align: center;
-  color: yellow;
 }
 @media (max-width: 480px) {
   .container-footer__title {
     /* *** TAMAÑO CELULAR *** */
-    color: blue;
+    color: black;
     /* FIN CELULAR */
   }
 }
@@ -228,12 +227,11 @@
   margin: 3px;
   font-size: 9px;
   text-align: center;
-  color: white;
 }
 @media (max-width: 480px) {
   .container-footer__text {
     /* *** TAMAÑO CELULAR *** */
-    color: blue;
+    color: black;
     font-size: 9px;
     /* FIN CELULAR */
   }
@@ -348,7 +346,7 @@
 }
 .container-footer__card3:hover {
   color: blue;
-  background-color: #101010;
+  background-color: rgb(78, 97, 49);
 }
 @media (max-width: 480px) {
   .container-footer__card3 {
@@ -390,7 +388,7 @@
 }
 .container-footer__card4:hover {
   color: blue;
-  background-color: purple;
+  background-color: rgb(149, 33, 52);
 }
 @media (max-width: 480px) {
   .container-footer__card4 {

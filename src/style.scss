@@ -15,7 +15,7 @@
             color: #fff;
             text-decoration: none;
             &:hover {
-                background-color: green;
+                background-color: yellowgreen;
                 border-radius: 10px;
                 -webkit-border-radius: 10px;
                 -moz-border-radius: 10px;
@@ -170,10 +170,9 @@
         margin: 2px;
         font-size: 10px;
         text-align: center;
-        color: yellow;
         @media (max-width: 480px) {
             /* *** TAMAÑO CELULAR *** */
-                color: blue;
+                color: black;
             /* FIN CELULAR */    
             }
             @media (min-width: 481px) and (max-width:980px) {
@@ -191,10 +190,9 @@
         margin: 3px;
         font-size: 9px;
         text-align: center;
-        color: white;
         @media (max-width: 480px) {
             /* *** TAMAÑO CELULAR *** */
-                color: blue;
+                color: black;
                 font-size: 9px;
             /* FIN CELULAR */    
             }
@@ -293,7 +291,7 @@
         border : 3px solid  #000069;
         &:hover {
             color: blue;
-            background-color: grayscale($color: #101010);
+            background-color: rgb(78, 97, 49);
         }
         @media (max-width: 480px) {
         /* *** TAMAÑO CELULAR *** */
@@ -328,7 +326,7 @@
         border : 3px solid  #000069;
         &:hover {
             color: blue;
-            background-color: purple;
+            background-color: rgb(149, 33, 52);
         }
         /* *** TAMAÑO CELULAR *** */
         @media (max-width: 480px) {
