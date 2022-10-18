@@ -28,8 +28,8 @@
 @media (max-width: 480px) {
   .container-grid__der a {
     /* *** TAMAÑO CELULAR *** */
-    color: red;
-    font-size: 9px;
+    color: rgb(131, 38, 40);
+    font-size: 12px;
     /* FIN CELULAR */
   }
 }
@@ -37,7 +37,7 @@
   .container-grid__der a {
     /* TAMAÑO TABLET */
     color: green;
-    font-size: 12px;
+    font-size: 13px;
     /* FIN TABLET */
   }
 }
@@ -71,8 +71,8 @@
 @media (max-width: 480px) {
   .container-center__planning {
     /* *** TAMAÑO CELULAR *** */
-    color: red;
-    font-size: 25px;
+    color: rgb(131, 38, 40);
+    font-size: 35px;
     /* FIN CELULAR */
   }
 }
@@ -102,7 +102,7 @@
 @media (max-width: 480px) {
   .container-center__text {
     /* *** TAMAÑO CELULAR *** */
-    color: red;
+    color: rgb(131, 38, 40);
     font-size: 15px;
     /* FIN CELULAR */
   }
@@ -124,7 +124,7 @@
   }
 }
 .container-center__text2 {
-  font-size: 12px;
+  /* font-size: 12px;*/
   color: black;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -133,7 +133,7 @@
 @media (max-width: 480px) {
   .container-center__text2 {
     /* *** TAMAÑO CELULAR *** */
-    color: red;
+    color: rgb(131, 38, 40);
     font-size: 12px;
     /* FIN CELULAR */
   }
@@ -166,7 +166,7 @@
 @media (max-width: 480px) {
   .container-center__welcome {
     /* *** TAMAÑO CELULAR *** */
-    color: red;
+    color: rgb(131, 38, 40);
     font-size: 12px;
     /* FIN CELULAR */
   }
@@ -190,18 +190,19 @@
 
 .container-footer {
   display: grid;
+  gap: 1px;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: 10px;
   font-family: Arial, Helvetica, sans-serif;
   -o-transition: 1000 ms all linear;
-  border: 20px;
 }
 .container-footer__title {
   display: grid;
-  font-size: 12px;
+  justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 3px;
+  font-size: 12px;
 }
 @media (max-width: 480px) {
   .container-footer__title {
@@ -225,9 +226,9 @@
   }
 }
 .container-footer__text {
+  display: grid;
   font-size: 12px;
-  align-items: left;
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 480px) {
   .container-footer__text {
@@ -251,15 +252,8 @@
   }
 }
 .container-footer__card1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   gap: 20px;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   -o-transition: 1000 ms all linear;
   border: 2px solid rgb(109, 23, 37);
 }
@@ -270,7 +264,7 @@
 @media (max-width: 480px) {
   .container-footer__card1 {
     /* *** TAMAÑO CELULAR *** */
-    background: red;
+    background: rgb(131, 38, 40);
     /* FIN CELULAR */
   }
 }
@@ -289,15 +283,8 @@
   }
 }
 .container-footer__card2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   gap: 20px;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   -o-transition: 1000 ms all linear;
   border: 2px solid rgb(109, 23, 37);
   /* *** TAMAÑO CELULAR *** */
@@ -310,7 +297,7 @@
 }
 @media (max-width: 480px) {
   .container-footer__card2 {
-    background: red;
+    background: rgb(131, 38, 40);
     /* FIN CELULAR */
   }
 }
@@ -327,15 +314,8 @@
   }
 }
 .container-footer__card3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   gap: 20px;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   -o-transition: 1000 ms all linear;
   border: 2px solid rgb(109, 23, 37);
 }
@@ -346,7 +326,7 @@
 @media (max-width: 480px) {
   .container-footer__card3 {
     /* *** TAMAÑO CELULAR *** */
-    background: red;
+    background: rgb(131, 38, 40);
     /* FIN CELULAR */
   }
 }
@@ -365,15 +345,8 @@
   }
 }
 .container-footer__card4 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   gap: 20px;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   -o-transition: 1000 ms all linear;
   border: 2px solid rgb(109, 23, 37);
   /* *** TAMAÑO CELULAR *** */
@@ -386,7 +359,7 @@
 }
 @media (max-width: 480px) {
   .container-footer__card4 {
-    background: red;
+    background: rgb(131, 38, 40);
     /* FIN CELULAR */
   }
 }

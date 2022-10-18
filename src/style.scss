@@ -27,15 +27,15 @@
 
             @media (max-width: 480px) {
                 /* *** TAMAÑO CELULAR *** */
-                color: red;
-                font-size: 9px;
+                color: rgb(131, 38, 40);
+                font-size: 12px;
                 /* FIN CELULAR */
             }
 
             @media (min-width: 481px) and (max-width:980px) {
                 /* TAMAÑO TABLET */
                 color: green;
-                font-size: 12px;
+                font-size: 13px;
                 /* FIN TABLET */
             }
 
@@ -69,8 +69,8 @@
 
         @media (max-width: 480px) {
             /* *** TAMAÑO CELULAR *** */
-            color: red;
-            font-size: 25px;
+            color: rgb(131, 38, 40);
+            font-size: 35px;
             /* FIN CELULAR */
         }
 
@@ -98,7 +98,7 @@
 
         @media (max-width: 480px) {
             /* *** TAMAÑO CELULAR *** */
-            color: red;
+            color: rgb(131, 38, 40);
             font-size: 15px;
             /* FIN CELULAR */
         }
@@ -119,7 +119,7 @@
     }
 
     &__text2 {
-        font-size: 12px;
+       /* font-size: 12px;*/
         color: black;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
@@ -127,7 +127,7 @@
 
         @media (max-width: 480px) {
             /* *** TAMAÑO CELULAR *** */
-            color: red;
+            color: rgb(131, 38, 40);
             font-size: 12px;
             /* FIN CELULAR */
         }
@@ -158,7 +158,7 @@
 
         @media (max-width: 480px) {
             /* *** TAMAÑO CELULAR *** */
-            color: red;
+            color: rgb(131, 38, 40);
             font-size: 12px;
             /* FIN CELULAR */
         }
@@ -181,19 +181,21 @@
 
 .container-footer {
     display: grid;
+    gap: 1px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 10px;
     font-family: Arial, Helvetica, sans-serif;
     -o-transition: 1000 ms all linear;
-    border: 20px;
+   
 
     &__title {
         display: grid;
-        font-size: 12px;
+        justify-content: center;
         align-items: center;
         text-align: center;
-        
+        padding: 3px;    
+        font-size: 12px;
+      
         @media (max-width: 480px) {
             /* *** TAMAÑO CELULAR *** */
             color: black;
@@ -214,19 +216,18 @@
     }
 
     &__text {
+        display: grid;
         font-size: 12px;
-        align-items: left;    
-        text-align: left;
+        text-align: center;
         @media (max-width: 480px) {
             /* *** TAMAÑO CELULAR *** */
-            color: black;
-            
+            color: black;  
             /* FIN CELULAR */
         }
 
         @media (min-width: 481px) and (max-width:980px) {
             /* TAMAÑO TABLET */
-            color: yellow;     
+            color: yellow;    
             /* FIN TABLET */
         }
 
@@ -238,15 +239,8 @@
     }
 
     &__card1 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         gap: 20px;
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+        border-radius: 10px;        
         -o-transition: 1000 ms all linear;
         border: 2px solid  rgb(109, 23, 37);
 
@@ -257,7 +251,7 @@
 
         @media (max-width: 480px) {
             /* *** TAMAÑO CELULAR *** */
-            background: red;
+            background: rgb(131, 38, 40);
             /* FIN CELULAR */
         }
 
@@ -275,15 +269,8 @@
     }
 
     &__card2 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         gap: 20px;
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+        border-radius: 10px;       
         -o-transition: 1000 ms all linear;
         border: 2px solid  rgb(109, 23, 37);
 
@@ -294,7 +281,7 @@
 
         /* *** TAMAÑO CELULAR *** */
         @media (max-width: 480px) {
-            background: red;
+            background: rgb(131, 38, 40);
             /* FIN CELULAR */
         }
 
@@ -312,15 +299,8 @@
     }
 
     &__card3 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         gap: 20px;
         border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
 
         -o-transition: 1000 ms all linear;
         border: 2px solid  rgb(109, 23, 37);
@@ -332,7 +312,7 @@
 
         @media (max-width: 480px) {
             /* *** TAMAÑO CELULAR *** */
-            background: red;
+            background: rgb(131, 38, 40);
             /* FIN CELULAR */
         }
 
@@ -350,15 +330,9 @@
     }
 
     &__card4 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         gap: 20px;
         border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+        
         -o-transition: 1000 ms all linear;
         border: 2px solid  rgb(109, 23, 37);
 
@@ -369,7 +343,7 @@
 
         /* *** TAMAÑO CELULAR *** */
         @media (max-width: 480px) {
-            background: red;
+            background: rgb(131, 38, 40);
             /* FIN CELULAR */
         }
 
