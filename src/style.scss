@@ -2,6 +2,7 @@
 .container-grid { 
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    padding: 20px;
     background-color: #000046;
     -o-transition : 10rgb(149, 149, 205)ll linear;
     font-family: Arial, Helvetica, sans-serif;
