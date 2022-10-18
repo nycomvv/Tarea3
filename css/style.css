@@ -3,7 +3,6 @@
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
   /*overflow: scroll; */
   background-color: #000046;
   -o-transition: 10rgb 149, 149, 205 ll linear;
@@ -16,7 +15,6 @@
 }
 .container-grid__der a {
   color: #fff;
-  font-size: 12px;
   text-decoration: none;
 }
 .container-grid__der a:hover {
@@ -31,6 +29,7 @@
   .container-grid__der a {
     /* *** TAMAÑO CELULAR *** */
     color: red;
+    font-size: 9px;
     /* FIN CELULAR */
   }
 }
@@ -38,12 +37,14 @@
   .container-grid__der a {
     /* TAMAÑO TABLET */
     color: yellow;
+    font-size: 12px;
     /* FIN TABLET */
   }
 }
 @media (min-width: 981px) {
   .container-grid__der a {
     /* TAMAÑO PC */
+    font-size: 14px;
     color: white;
     /* FIN PC */
   }

@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
     /*overflow: scroll; */
     background-color: #000046;
     -o-transition : 10rgb(149, 149, 205)ll linear;
@@ -14,7 +13,6 @@
         text-align: center;
         a {
             color: #fff;
-            font-size: 12px;
             text-decoration: none;
             &:hover {
                 background-color: green;
@@ -27,15 +25,18 @@
             @media (max-width: 480px) {
                 /* *** TAMAÑO CELULAR *** */
                     color: red;
-                /* FIN CELULAR */    
+                    font-size: 9px;
+                    /* FIN CELULAR */    
                 }
             @media (min-width: 481px) and (max-width:980px) {
                 /* TAMAÑO TABLET */
                     color: yellow;
+                    font-size: 12px;
                 /* FIN TABLET */ 
             }
             @media (min-width: 981px) {
                 /* TAMAÑO PC */
+                font-size: 14px;
                     color: white;
                 /* FIN PC */ 
             }
