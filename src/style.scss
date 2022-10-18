@@ -2,10 +2,9 @@
 .container-grid { 
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-gap: 10px;
-    /*overflow: scroll; */
     background-color: #000046;
     -o-transition : 10rgb(149, 149, 205)ll linear;
+    font-family: Arial, Helvetica, sans-serif;
     &__der {
         display: grid;  
         justify-content: center;
@@ -36,7 +35,7 @@
             }
             @media (min-width: 981px) {
                 /* TAMAÑO PC */
-                font-size: 14px;
+                    font-size: 14px;
                     color: white;
                 /* FIN PC */ 
             }
@@ -140,16 +139,19 @@
         @media (max-width: 480px) {
             /* *** TAMAÑO CELULAR *** */
                 color: blue;
+                font-size: 9px;
             /* FIN CELULAR */    
             }
             @media (min-width: 481px) and (max-width:980px) {
             /* TAMAÑO TABLET */
                 color: yellow;
+                font-size: 10px;  
             /* FIN TABLET */ 
             }
             @media (min-width: 981px) {
             /* TAMAÑO PC */
                 color: white;
+                font-size: 12px;  
             /* FIN PC */ 
             }
     }
@@ -170,10 +172,9 @@
             color: blue;
             background-color: rgb(122, 153, 76);
         }
-
         @media (max-width: 480px) {
         /* *** TAMAÑO CELULAR *** */
-            background: red;       
+            background: red;     
         /* FIN CELULAR */    
         }
         @media (min-width: 481px) and (max-width:980px) {
