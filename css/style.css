@@ -35,7 +35,7 @@
 @media (min-width: 481px) and (max-width: 980px) {
   .container-grid__der a {
     /* TAMAÑO TABLET */
-    color: yellow;
+    color: green;
     font-size: 12px;
     /* FIN TABLET */
   }
@@ -249,7 +249,7 @@
   .container-footer__text {
     /* TAMAÑO PC */
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     /* FIN PC */
   }
 }
