@@ -198,6 +198,13 @@
   font-family: Arial, Helvetica, sans-serif;
   -o-transition: 1000 ms all linear;
 }
+@media (max-width: 480px) {
+  .container-footer .container_footer {
+    grid-template-columns: auto;
+    gap: 10px;
+    grid-template-rows: auto;
+  }
+}
 .container-footer__title {
   display: grid;
   justify-content: center;
@@ -211,11 +218,6 @@
     /* *** TAMAÑO CELULAR *** */
     color: black;
     /* FIN CELULAR */
-  }
-  .container-footer__title .container_footer {
-    grid-template-columns: auto;
-    gap: 10px;
-    grid-template-rows: auto;
   }
 }
 @media (min-width: 481px) and (max-width: 980px) {
